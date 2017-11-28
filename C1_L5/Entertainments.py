@@ -28,3 +28,6 @@ Frozen = Media.Movie("Frozen", "No StoryLine",
 
 Movies = [Private, MeBeforeYou, BabyDriver, Beauty_And_The_Beast, Frozen, Ratatouille]
 SiteForMovies.open_movies_page(Movies)
+print(Media.Movie.__doc__)           #Documentation
+print(Media.Movie.__name__)          #Name Of Class
+print(Media.Movie.__module__)        #Name Of File Has This Class

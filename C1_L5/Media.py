@@ -1,5 +1,6 @@
 import webbrowser
 class Movie():
+    ''' This Is Documentation About This Class'''        #Documentation
     #__init__ is Special Method.. it's Construtor
     def __init__(self, movie_Title, movie_StoryLine, movie_Poster_Image,
                  movie_Trailer_Youtube): #Self it's Default == Name Of Object
