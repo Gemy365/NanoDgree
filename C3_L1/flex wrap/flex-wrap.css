@@ -1,0 +1,104 @@
+body, html
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container                                /* class of parent div */
+{
+  display: flex;                         /* Default make it in Rows but not move to next Row*/
+  flex-wrap: wrap;                       /* move to next Row if Space less Than the Row To See All Of content*/
+}
+.Box                                    /* First class of all Divs */
+{
+  width: 100%;                         /* Fixed Width */
+  height: 100px;                       /*  height = 100px */
+}
+
+@media screen and (min-width: 0px)    /* when px = 0 or more do it */
+{
+  .red                                 /* First Class Or Header Class */
+  {
+    width: 100%;
+    order: 0;                          /* Its Place In website */
+    background-color: red;            /* background For This Div */
+  }
+  .orange
+  {
+    width: 25%;
+    order: 1;
+    background-color: orange;
+  }
+  .black
+  {
+    width: 50%;
+    order: 2;
+    background-color: black;
+  }
+  .blue
+  {
+    width: 25%;
+    order: 3;
+    background-color: blue;
+  }
+  .yellow
+  {
+    width: 100%;
+    order: 4;
+    background-color: yellow;
+  }
+  .green
+  {
+    width: 100%;
+    order: 5;
+    background-color: green;
+  }
+}
+
+@media screen and (min-width: 600px)   /* From 600px Change Order and Size and Fixed the width*/
+{
+  .container                                /* class of parent div */
+  {
+    width: 1000px;                        /* Fixed width by 1000px */
+    margin-left: auto;                    /* Fixed Space From left*/
+    margin-right: auto;                   /* Fixed Space From right*/
+  }
+  .red                                 /* First Class Or Header Class */
+  {
+    width: 50%;
+    order: 4;                          /* Its Place In website */
+    background-color: red;            /* background For This Div */
+  }
+  .orange
+  {
+    width: 100%;
+    order: 2;
+    background-color: orange;
+  }
+  .black
+  {
+    width: 50%;
+    order: 0;
+    background-color: black;
+  }
+  .blue
+  {
+    width: 100%;
+    order: 5;
+    background-color: blue;
+  }
+  .yellow
+  {
+    width: 50%;
+    order: 1;
+    background-color: yellow;
+  }
+  .green
+  {
+    width: 50%;
+    order: 3;
+    background-color: green;
+  }
+}

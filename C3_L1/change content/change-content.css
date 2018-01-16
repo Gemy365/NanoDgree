@@ -1,0 +1,34 @@
+body, html
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 500px)    /* when px = 500 or more do it */
+{
+  body                                  /* new body */
+  {
+    background-color:black;              /* change the background color to blue */
+    color: #FFF;                        /* change the color of text */
+  }
+  .replaced span                            /* make sure to write any tag with class like [span tag] or [p tag] */
+  {
+    display: none;                      /* remove the content [words] */
+
+  }
+  .replaced:after                           /* after removing.. to this */
+  {
+    content: "New content ";              /* to write new content */
+  }
+}
+
+@media screen and (min-width: 800px)  and (max-width: 1000px)   /* from 800px to 1000px do it */
+{
+  body                                  /* new body */
+  {
+    background-color:orange;              /* change the background color to blue */
+    color: #000;                        /* change the color of text */
+  }
+}
