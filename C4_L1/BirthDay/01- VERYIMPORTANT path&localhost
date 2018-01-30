@@ -1,0 +1,17 @@
+Program: Google Cloud
+
+Link The Program: [https://cloud.google.com/sdk/docs/#linux]
+
+#Check [https://drive.google.com/file/d/0Byu3UemwRffDc21qd3duLW9LMm8/view] When You DownLoad.. Will Help you
+
+Path The Main File To Work: BirthDay > main.py
+
+Path In Terminal: cd Desktop/BirthDay
+
+To Run The Server: dev_appserver.py . #Don't Forget Last [.] It's Important
+
+To Stop The Server Press: Ctrl + C
+
+The Local Server: [http://localhost:8080/]
+
+
